@@ -1,6 +1,6 @@
 import { ICommonObject, INode, INodeData, INodeParams } from '../../../../src/Interface';
 import { TextSplitter } from 'langchain/text_splitter';
-import { YoutubeLoader } from 'langchain/document_loaders/youtube';
+import { YoutubeLoader } from 'langchain/document_loaders/web/youtubeloader';
 
 class YoutubeDocumentLoaderNode implements INode {
     label: string = 'YouTube Loader';
